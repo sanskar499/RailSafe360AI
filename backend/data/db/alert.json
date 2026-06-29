@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "m36qmnjlj",
+    "createdAt": "2026-06-28T19:04:27.966Z",
+    "updatedAt": "2026-06-28T19:04:27.966Z",
+    "locoNo": "27084",
+    "code": "AL-RF-01",
+    "message": "RF Communication failure detected: Kavach safety beacon range out of bounds.",
+    "priority": "Critical",
+    "type": "Kavach",
+    "timestamp": "2026-06-28T19:04:27.965Z",
+    "resolved": false
+  },
+  {
+    "_id": "1ijf69ged",
+    "createdAt": "2026-06-28T19:04:27.968Z",
+    "updatedAt": "2026-06-28T19:04:27.968Z",
+    "locoNo": "31045",
+    "code": "AL-BK-03",
+    "message": "Brake cylinder response delay warning. Pressure dropping below 4.4 kg/cm².",
+    "priority": "High",
+    "type": "Mechanical",
+    "timestamp": "2026-06-28T18:04:27.965Z",
+    "resolved": false
+  }
+]

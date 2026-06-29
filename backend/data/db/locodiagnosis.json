@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "wnxey5qwr",
+    "createdAt": "2026-06-28T19:05:28.553Z",
+    "updatedAt": "2026-06-29T15:57:33.145Z",
+    "locoNo": "11005",
+    "possibleFault": "ACTIVE FIRE HAZARD IN CABIN",
+    "probability": 100,
+    "severity": "Critical",
+    "rootCause": "Critical arcing or insulation fire in primary cabinet.",
+    "recommendations": [
+      "De-energize main circuit breakers immediately.",
+      "Discharge visual smoke dampers and verify CO2 canisters.",
+      "Mark locomotive out of service and tow to heavy repairs shop."
+    ],
+    "estimatedDowntime": 24,
+    "estimatedRepairCost": 125000,
+    "engineerSkillRequired": "Emergency Operations Engineer"
+  }
+]

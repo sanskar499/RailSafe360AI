@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "p1hgipi0w",
+    "createdAt": "2026-06-28T19:04:28.075Z",
+    "updatedAt": "2026-06-28T19:04:28.075Z",
+    "locoNo": "30201",
+    "smokeStatus": "No Smoke",
+    "thermalSensorStatus": "Normal",
+    "electricalSensorStatus": "Normal"
+  },
+  {
+    "_id": "32gjdwmef",
+    "createdAt": "2026-06-28T19:04:28.076Z",
+    "updatedAt": "2026-06-28T19:04:28.076Z",
+    "locoNo": "31045",
+    "smokeStatus": "No Smoke",
+    "thermalSensorStatus": "Normal",
+    "electricalSensorStatus": "Normal"
+  },
+  {
+    "_id": "eshzj4tqw",
+    "createdAt": "2026-06-28T19:04:28.078Z",
+    "updatedAt": "2026-06-28T19:04:28.078Z",
+    "locoNo": "31289",
+    "smokeStatus": "No Smoke",
+    "thermalSensorStatus": "Normal",
+    "electricalSensorStatus": "Normal"
+  },
+  {
+    "_id": "4ujutjrsy",
+    "createdAt": "2026-06-28T19:04:28.079Z",
+    "updatedAt": "2026-06-28T19:04:28.079Z",
+    "locoNo": "27084",
+    "smokeStatus": "No Smoke",
+    "thermalSensorStatus": "Normal",
+    "electricalSensorStatus": "Normal"
+  },
+  {
+    "_id": "hub9xgjf0",
+    "createdAt": "2026-06-28T19:04:28.081Z",
+    "updatedAt": "2026-06-28T19:04:28.081Z",
+    "locoNo": "11005",
+    "smokeStatus": "No Smoke",
+    "thermalSensorStatus": "Normal",
+    "electricalSensorStatus": "Normal"
+  }
+]

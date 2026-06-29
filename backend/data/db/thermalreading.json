@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "5bk7wm0ip",
+    "createdAt": "2026-06-28T19:04:28.082Z",
+    "updatedAt": "2026-06-28T19:04:28.082Z",
+    "locoNo": "30201",
+    "tractionMotor": 52,
+    "transformer": 48,
+    "battery": 28,
+    "brake": 38,
+    "electricalPanel": 32
+  },
+  {
+    "_id": "0zho5efnp",
+    "createdAt": "2026-06-28T19:04:28.084Z",
+    "updatedAt": "2026-06-28T19:04:28.084Z",
+    "locoNo": "31045",
+    "tractionMotor": 78,
+    "transformer": 72,
+    "battery": 42,
+    "brake": 65,
+    "electricalPanel": 58
+  },
+  {
+    "_id": "cs1wd6a0r",
+    "createdAt": "2026-06-28T19:04:28.086Z",
+    "updatedAt": "2026-06-28T19:04:28.086Z",
+    "locoNo": "31289",
+    "tractionMotor": 45,
+    "transformer": 42,
+    "battery": 25,
+    "brake": 32,
+    "electricalPanel": 28
+  },
+  {
+    "_id": "bydnayby9",
+    "createdAt": "2026-06-28T19:04:28.088Z",
+    "updatedAt": "2026-06-28T19:04:28.088Z",
+    "locoNo": "27084",
+    "tractionMotor": 82,
+    "transformer": 79,
+    "battery": 44,
+    "brake": 85,
+    "electricalPanel": 72
+  },
+  {
+    "_id": "jw26dyw3e",
+    "createdAt": "2026-06-28T19:04:28.090Z",
+    "updatedAt": "2026-06-28T19:04:28.090Z",
+    "locoNo": "11005",
+    "tractionMotor": 56,
+    "transformer": 50,
+    "battery": 31,
+    "brake": 40,
+    "electricalPanel": 34
+  }
+]

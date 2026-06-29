@@ -1,0 +1,85 @@
+[
+  {
+    "_id": "ycade8jee",
+    "createdAt": "2026-06-28T19:04:27.969Z",
+    "updatedAt": "2026-06-28T19:04:27.969Z",
+    "locoNo": "30201",
+    "lat": 25.3134,
+    "lng": 86.4952,
+    "speed": 84,
+    "direction": "North-West",
+    "lastStation": "Bhagalpur Jn",
+    "nextStation": "Jamalpur Shed",
+    "eta": "8 mins",
+    "signalAspect": "Green",
+    "movementTimeline": [
+      {
+        "station": "Howrah Jn",
+        "time": "14:20",
+        "status": "Departed"
+      },
+      {
+        "station": "Bhagalpur Jn",
+        "time": "19:40",
+        "status": "Departed"
+      },
+      {
+        "station": "Jamalpur Shed",
+        "time": "21:12",
+        "status": "Arriving"
+      }
+    ]
+  },
+  {
+    "_id": "0g1qnn0hi",
+    "createdAt": "2026-06-28T19:04:27.971Z",
+    "updatedAt": "2026-06-28T19:04:27.971Z",
+    "locoNo": "31045",
+    "lat": 25.2494,
+    "lng": 86.2238,
+    "speed": 0,
+    "direction": "Stationary",
+    "lastStation": "Kiul Jn",
+    "nextStation": "Jamalpur Shed",
+    "eta": "0 mins (Delayed)",
+    "signalAspect": "Red",
+    "movementTimeline": [
+      {
+        "station": "Patna Jn",
+        "time": "17:15",
+        "status": "Departed"
+      },
+      {
+        "station": "Kiul Jn",
+        "time": "20:10",
+        "status": "Arrived"
+      }
+    ]
+  },
+  {
+    "_id": "hpnksbr28",
+    "createdAt": "2026-06-28T19:04:27.973Z",
+    "updatedAt": "2026-06-28T19:04:27.973Z",
+    "locoNo": "11005",
+    "lat": 24.1627,
+    "lng": 87.7796,
+    "speed": 98,
+    "direction": "South-East",
+    "lastStation": "Rampurhat Jn",
+    "nextStation": "Barddhaman Jn",
+    "eta": "45 mins",
+    "signalAspect": "Green",
+    "movementTimeline": [
+      {
+        "station": "Jamalpur Shed",
+        "time": "18:10",
+        "status": "Departed"
+      },
+      {
+        "station": "Rampurhat Jn",
+        "time": "20:30",
+        "status": "Departed"
+      }
+    ]
+  }
+]

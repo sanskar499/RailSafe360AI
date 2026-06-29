@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "ff7oiky9b",
+    "createdAt": "2026-06-28T19:05:28.550Z",
+    "updatedAt": "2026-06-29T14:39:40.066Z",
+    "locoNo": "11005",
+    "tractionMotorHealth": 50,
+    "tractionMotorTemp": 95,
+    "tractionMotorRul": 320,
+    "transformerHealth": 60,
+    "transformerTemp": 82,
+    "transformerRul": 1,
+    "batteryHealth": 92,
+    "batteryTemp": 32,
+    "batteryRul": 150,
+    "brakeHealth": 45,
+    "brakeTemp": 85,
+    "brakeRul": 210,
+    "gpsStatus": "Active",
+    "rfStatus": "Active",
+    "kavachStatus": "Active"
+  }
+]

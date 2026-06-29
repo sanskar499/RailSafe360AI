@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "7wzj88jol",
+    "createdAt": "2026-06-28T19:04:28.073Z",
+    "updatedAt": "2026-06-28T19:04:28.073Z",
+    "locoNo": "27084",
+    "reporterId": "EMP-LE-05",
+    "reporterName": "Amit Sharma",
+    "title": "Traction Motor overheating under full load",
+    "type": "Motor Failure",
+    "priority": "High",
+    "description": "TM-4 winding temperature reached 108°C on uphill grade between Kiul and Jamalpur. Shed assistance requested.",
+    "status": "Open",
+    "timeline": [
+      {
+        "status": "Open",
+        "time": "28/6/2026, 10:34:27 pm",
+        "remarks": "Incident logged. Driver reported high heating alarms on instrument panel.",
+        "updatedBy": "Amit Sharma"
+      }
+    ]
+  },
+  {
+    "_id": "m0xpn4xfb",
+    "createdAt": "2026-06-28T19:06:31.079Z",
+    "updatedAt": "2026-06-28T19:06:31.079Z",
+    "locoNo": "11005",
+    "title": "AI Health Alert: Transformer Winding Insulation Breakdown",
+    "type": "Electrical",
+    "priority": "Critical",
+    "description": "AI diagnostic engine automatically triggered maintenance isolation. Reserved: Bay 2 (Heavy Repairs). Assigned tech: Vikram Singh. Root cause: Internal arcing caused by severe cellulose paper insulation decay in oil core.",
+    "status": "Open",
+    "timeline": [
+      {
+        "date": "2026-06-28",
+        "status": "Reported",
+        "remarks": "Triggered by Autonomous AI Health Intelligence."
+      }
+    ]
+  },
+  {
+    "_id": "3h823nppk",
+    "createdAt": "2026-06-29T14:39:36.909Z",
+    "updatedAt": "2026-06-29T14:39:36.909Z",
+    "locoNo": "11005",
+    "title": "AI Health Alert: Transformer Winding Insulation Breakdown",
+    "type": "Electrical",
+    "priority": "Critical",
+    "description": "AI diagnostic engine automatically triggered maintenance isolation. Reserved: Bay 2 (Heavy Repairs). Assigned tech: Vikram Singh. Root cause: Internal arcing caused by severe cellulose paper insulation decay in oil core.",
+    "status": "Open",
+    "timeline": [
+      {
+        "date": "2026-06-29",
+        "status": "Reported",
+        "remarks": "Triggered by Autonomous AI Health Intelligence."
+      }
+    ]
+  },
+  {
+    "_id": "9154ff4zv",
+    "createdAt": "2026-06-29T14:39:40.077Z",
+    "updatedAt": "2026-06-29T14:39:40.077Z",
+    "locoNo": "11005",
+    "title": "AI Health Alert: ACTIVE FIRE HAZARD IN CABIN",
+    "type": "Electrical",
+    "priority": "Critical",
+    "description": "AI diagnostic engine automatically triggered maintenance isolation. Reserved: Bay 1 (Emergency Isolation). Assigned tech: Vikram Singh. Root cause: Resistive cabinet heating triggered thermal combustion of insulation sleeve layers.",
+    "status": "Open",
+    "timeline": [
+      {
+        "date": "2026-06-29",
+        "status": "Reported",
+        "remarks": "Triggered by Autonomous AI Health Intelligence."
+      }
+    ]
+  }
+]

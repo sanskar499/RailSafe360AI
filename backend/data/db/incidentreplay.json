@@ -1,0 +1,97 @@
+[
+  {
+    "_id": "9r56tyqwm",
+    "createdAt": "2026-06-28T19:05:28.585Z",
+    "updatedAt": "2026-06-28T19:05:28.585Z",
+    "locoNo": "11005",
+    "title": "Thermal Overload Incident Replay",
+    "date": "2026-06-28",
+    "sensorHistory": [
+      {
+        "time": "T-90 min",
+        "motorTemp": 59,
+        "current": 295,
+        "vibration": 26,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-80 min",
+        "motorTemp": 63,
+        "current": 310,
+        "vibration": 32,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-70 min",
+        "motorTemp": 67,
+        "current": 325,
+        "vibration": 38,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-60 min",
+        "motorTemp": 71,
+        "current": 340,
+        "vibration": 44,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-50 min",
+        "motorTemp": 75,
+        "current": 355,
+        "vibration": 50,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-40 min",
+        "motorTemp": 79,
+        "current": 370,
+        "vibration": 56,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-30 min",
+        "motorTemp": 83,
+        "current": 385,
+        "vibration": 62,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-20 min",
+        "motorTemp": 87,
+        "current": 400,
+        "vibration": 68,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-10 min",
+        "motorTemp": 91,
+        "current": 415,
+        "vibration": 74,
+        "smoke": "No Smoke"
+      },
+      {
+        "time": "T-00 min",
+        "motorTemp": 95,
+        "current": 430,
+        "vibration": 80,
+        "smoke": "Light Smoke"
+      }
+    ],
+    "alerts": [
+      {
+        "time": "T-30 min",
+        "message": "Traction Motor TM-1 Winding Temp warning: 82°C"
+      },
+      {
+        "time": "T-10 min",
+        "message": "Vibration alert TM-1 Bearing: 74Hz (Abnormal)"
+      },
+      {
+        "time": "T-0 min",
+        "message": "KAVACH INTERVENTION: Emergency Shutdown due to Overheat and Cabin Smoke"
+      }
+    ],
+    "resolution": "Motor bearing replaced. Cooling fans contactor replaced and re-aligned."
+  }
+]

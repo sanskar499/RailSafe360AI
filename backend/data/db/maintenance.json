@@ -1,0 +1,140 @@
+[
+  {
+    "_id": "4j5ui815o",
+    "createdAt": "2026-06-28T19:04:27.963Z",
+    "updatedAt": "2026-06-29T03:33:53.857Z",
+    "locoNo": "31045",
+    "requestDate": "2026-06-20",
+    "scheduleDate": "2026-06-27",
+    "assignedEngineer": "Suresh Chandra",
+    "technician": "Vikram Singh",
+    "status": "Pending",
+    "checklist": [
+      {
+        "item": "Kavach calibration and beacon range tests",
+        "checked": true
+      },
+      {
+        "item": "Traction motor insulation and winding temperature log",
+        "checked": true
+      },
+      {
+        "item": "Air brake pressure valve and cylinder inspection",
+        "checked": true
+      },
+      {
+        "item": "Battery voltage, load test, and acid gravity check",
+        "checked": true
+      },
+      {
+        "item": "RTIS GPS transmitter and radio-frequency link diagnostic",
+        "checked": true
+      }
+    ],
+    "remarks": "Scheduled weekly inspection for WAP5 unit."
+  },
+  {
+    "_id": "tzrvih2k5",
+    "createdAt": "2026-06-28T19:04:27.964Z",
+    "updatedAt": "2026-06-28T19:04:27.964Z",
+    "locoNo": "27084",
+    "requestDate": "2026-06-18",
+    "scheduleDate": "2026-06-25",
+    "assignedEngineer": "Suresh Chandra",
+    "technician": "Vikram Singh",
+    "status": "In Progress",
+    "checklist": [
+      {
+        "item": "Inspect and replace RF transponder circuit unit",
+        "checked": true
+      },
+      {
+        "item": "Recalibrate wheel brake block gaps",
+        "checked": false
+      },
+      {
+        "item": "Test battery auxiliary charging output under load",
+        "checked": false
+      }
+    ],
+    "remarks": "Unit has active critical RF communication alarm."
+  },
+  {
+    "_id": "7hiw3zku1",
+    "createdAt": "2026-06-28T19:06:31.077Z",
+    "updatedAt": "2026-06-28T19:06:31.077Z",
+    "locoNo": "11005",
+    "requestDate": "2026-06-28",
+    "scheduleDate": "2026-06-28",
+    "assignedEngineer": "Suresh Chandra",
+    "technician": "Vikram Singh",
+    "status": "In Progress",
+    "checklist": [
+      {
+        "item": "Isolate transformer primary supply",
+        "checked": false
+      },
+      {
+        "item": "Extract oil sample for dissolved gas analysis",
+        "checked": false
+      },
+      {
+        "item": "Test winding resistance",
+        "checked": false
+      }
+    ],
+    "remarks": "Auto-generated AI ticket for Transformer Winding Insulation Breakdown. Reserved: Bay 2 (Heavy Repairs). Allocated: Transformer Bushing Cover, Dielectric Core Oil (50L), Cellulose Insulation Sheets."
+  },
+  {
+    "_id": "7059yntqf",
+    "createdAt": "2026-06-29T14:39:36.906Z",
+    "updatedAt": "2026-06-29T14:39:36.906Z",
+    "locoNo": "11005",
+    "requestDate": "2026-06-29",
+    "scheduleDate": "2026-06-29",
+    "assignedEngineer": "Suresh Chandra",
+    "technician": "Vikram Singh",
+    "status": "In Progress",
+    "checklist": [
+      {
+        "item": "Isolate transformer primary supply",
+        "checked": false
+      },
+      {
+        "item": "Extract oil sample for dissolved gas analysis",
+        "checked": false
+      },
+      {
+        "item": "Test winding resistance",
+        "checked": false
+      }
+    ],
+    "remarks": "Auto-generated AI ticket for Transformer Winding Insulation Breakdown. Reserved: Bay 2 (Heavy Repairs). Allocated: Transformer Bushing Cover, Dielectric Core Oil (50L), Cellulose Insulation Sheets."
+  },
+  {
+    "_id": "kqr0w4zpp",
+    "createdAt": "2026-06-29T14:39:40.074Z",
+    "updatedAt": "2026-06-29T14:39:40.074Z",
+    "locoNo": "11005",
+    "requestDate": "2026-06-29",
+    "scheduleDate": "2026-06-29",
+    "assignedEngineer": "Vikram Singh",
+    "technician": "Vikram Singh",
+    "status": "In Progress",
+    "checklist": [
+      {
+        "item": "De-energize main circuit breakers immediately",
+        "checked": false
+      },
+      {
+        "item": "Isolate battery switches",
+        "checked": false
+      },
+      {
+        "item": "Evacuate cabin space",
+        "checked": false
+      }
+    ],
+    "remarks": "Auto-generated AI ticket for ACTIVE FIRE HAZARD IN CABIN. Reserved: Bay 1 (Emergency Isolation). Allocated: Cabinet Winding Harness (60m), High Power Fuse Insulators, CO2 Suppression Cylinders."
+  }
+]

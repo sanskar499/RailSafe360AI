@@ -1,0 +1,178 @@
+[
+  {
+    "_id": "zumvo5fpd",
+    "createdAt": "2026-06-28T19:05:28.524Z",
+    "updatedAt": "2026-06-28T19:05:28.524Z",
+    "componentName": "Traction Motor (Winding & Bearings)",
+    "workingPrinciple": "Converts primary electrical energy from catenary wire into rotational mechanical torque for axel drives using a 3-Phase asynchronous induction design.",
+    "commonFaults": [
+      {
+        "name": "Bearing Fatigue",
+        "symptoms": "Abnormal high-frequency vibrations above 60Hz and friction heating exceeding 90°C."
+      },
+      {
+        "name": "Insulation Breakdown",
+        "symptoms": "Phase-to-ground leakage currents resulting in tripped shed circuit breakers."
+      }
+    ],
+    "inspectionSteps": [
+      "Conduct infrared thermal scanner sweep on motor bearing housing.",
+      "Measure vibration frequencies using hand-held accelerometer sensors.",
+      "Verify cooling blower fans filter cleanliness."
+    ],
+    "safetyPrecautions": [
+      "Ensure catenary isolator switch is locked open.",
+      "Discharge static charge before touching motor windings."
+    ],
+    "repairGuide": "Perform bearing casing grease flush. If damage is deep, decouple axle drive, hoist motor block using gantry cranes, and replace bearing sleeves.",
+    "maintenanceFrequency": "Quarterly Check (IA/IB schedules)"
+  },
+  {
+    "_id": "xksxmo22g",
+    "createdAt": "2026-06-28T19:05:28.528Z",
+    "updatedAt": "2026-06-28T19:05:28.528Z",
+    "componentName": "Main Transformer Oil Core",
+    "workingPrinciple": "Steps down 25kV catenary AC supply to traction motor driver limits using oil-cooled copper secondary windings.",
+    "commonFaults": [
+      {
+        "name": "Oil Moisture Contamination",
+        "symptoms": "Breakdown of dielectric strength (arcing inside transformer tank)."
+      },
+      {
+        "name": "Core Sludging",
+        "symptoms": "Reduced heat dissipation, oil temperatures exceeding 80°C under load."
+      }
+    ],
+    "inspectionSteps": [
+      "Extract bottom valve oil sample for gas chromatography tests.",
+      "Verify silica gel color inside conservator breather tank.",
+      "Log oil levels on conservator sight glass."
+    ],
+    "safetyPrecautions": [
+      "Verify complete primary earth rod grounding.",
+      "Keep hot oil away from open flames."
+    ],
+    "repairGuide": "Pump transformer oil through vacuum filter machine. If winding insulation Megger resistance reads under 50 megaohms, core must be lifted and baked.",
+    "maintenanceFrequency": "Semi-Annually (IC schedules)"
+  },
+  {
+    "_id": "uf2bn61jg",
+    "createdAt": "2026-06-28T19:05:28.531Z",
+    "updatedAt": "2026-06-28T19:05:28.531Z",
+    "componentName": "Auxiliary Battery Bank cells",
+    "workingPrinciple": "Provides 110V DC control voltage to cab electronics, headlight loops, and safety systems when the catenary power is disconnected.",
+    "commonFaults": [
+      {
+        "name": "Thermal Runaway",
+        "symptoms": "Cell temperatures rising above 55°C, bulging casing, electrolyte boiling."
+      },
+      {
+        "name": "Sulphation",
+        "symptoms": "Reduced capacity, high internal resistance, voltage drops under load."
+      }
+    ],
+    "inspectionSteps": [
+      "Measure individual cell voltages and specific gravity using a hydrometer.",
+      "Check terminal connections for corrosion or oxidation build-up."
+    ],
+    "safetyPrecautions": [
+      "Wear protective acid-resistant gloves and goggles.",
+      "Do not short battery terminals under any circumstances."
+    ],
+    "repairGuide": "Clean oxidized terminals with warm sodium bicarbonate solution. Replace weak cells reading below 1.8V under load.",
+    "maintenanceFrequency": "Monthly (IA schedule)"
+  },
+  {
+    "_id": "1vztu58v2",
+    "createdAt": "2026-06-28T19:05:28.533Z",
+    "updatedAt": "2026-06-28T19:05:28.533Z",
+    "componentName": "Air Brakes cylinder rigging",
+    "workingPrinciple": "Applies mechanical pressure onto wheels using high-pressure compressed air regulated by pilot valves.",
+    "commonFaults": [
+      {
+        "name": "Brake cylinder Leakage",
+        "symptoms": "Slow drops in pressure gauges, hiss sounds in underbelly."
+      },
+      {
+        "name": "Rigging Seizure",
+        "symptoms": "Brake shoes dragging on wheel treads, brake cylinder temperature above 90°C."
+      }
+    ],
+    "inspectionSteps": [
+      "Measure brake block gap clearances (nominal 8-12mm).",
+      "Check piston stroke length during full application."
+    ],
+    "safetyPrecautions": [
+      "Bleed pressure reservoirs completely before servicing.",
+      "Use safety pins to lock rigging block before working."
+    ],
+    "repairGuide": "Replace worn brake block pads. Rebuild release cylinder piston seals if pressure drop is detected.",
+    "maintenanceFrequency": "Weekly (Trip inspections)"
+  },
+  {
+    "_id": "wr7txzibx",
+    "createdAt": "2026-06-28T19:05:28.535Z",
+    "updatedAt": "2026-06-28T19:05:28.535Z",
+    "componentName": "GPS Localization Transponder",
+    "workingPrinciple": "Synchronizes coordinates with satellite networks to stream live locomotive position tracking over RTIS.",
+    "commonFaults": [
+      {
+        "name": "Signal Loss",
+        "symptoms": "GPS Status shows Inactive, position freeze on RTIS."
+      }
+    ],
+    "inspectionSteps": [
+      "Inspect external GPS dome antenna coaxial connection.",
+      "Check power supply loop voltages."
+    ],
+    "safetyPrecautions": [
+      "Do not bend coaxial cables beyond minimum bend radius."
+    ],
+    "repairGuide": "Re-tighten antenna connections. If transponder module remains dead, replace internal GPS receiver PCB.",
+    "maintenanceFrequency": "Monthly"
+  },
+  {
+    "_id": "4fnqrveqd",
+    "createdAt": "2026-06-28T19:05:28.537Z",
+    "updatedAt": "2026-06-28T19:05:28.537Z",
+    "componentName": "RF Communication Link",
+    "workingPrinciple": "Establishes direct line-of-sight telemetry connections with trackside RFID beacons and stations.",
+    "commonFaults": [
+      {
+        "name": "Frequency Drift",
+        "symptoms": "Intermittent RF packet drops, connection warnings on Kavach console."
+      }
+    ],
+    "inspectionSteps": [
+      "Verify antenna mount stability on roof.",
+      "Measure RF output power using wattmeters."
+    ],
+    "safetyPrecautions": [
+      "De-energize transmitter before working on antenna."
+    ],
+    "repairGuide": "Replace damaged RF coaxial cable. Tune antenna match parameters.",
+    "maintenanceFrequency": "Monthly"
+  },
+  {
+    "_id": "sm8yzpsfk",
+    "createdAt": "2026-06-28T19:05:28.538Z",
+    "updatedAt": "2026-06-28T19:05:28.538Z",
+    "componentName": "Kavach SIL-4 Cabin display console",
+    "workingPrinciple": "Translates RFID beacon coordinates and signal aspects into a pilot warning display. Enforces SPAD deceleration curves.",
+    "commonFaults": [
+      {
+        "name": "Display Freezing",
+        "symptoms": "Frozen screen values, warning indicators flashing red, alarm sounders active."
+      }
+    ],
+    "inspectionSteps": [
+      "Check DMI display harness connections.",
+      "Verify serial link communications with central processor."
+    ],
+    "safetyPrecautions": [
+      "Handle static-sensitive microprocessor boards with ESD wrist straps."
+    ],
+    "repairGuide": "Perform soft reboot of Kavach console. If failures persist, replace display driver module.",
+    "maintenanceFrequency": "Monthly"
+  }
+]

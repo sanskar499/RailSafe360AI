@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "8gl0kasu4",
+    "createdAt": "2026-06-28T19:05:28.569Z",
+    "updatedAt": "2026-06-28T19:05:28.569Z",
+    "partName": "Traction Motor Bearings (TM-1)",
+    "probability": 92,
+    "timeframe": 7,
+    "quantityRequired": 4,
+    "currentStock": 1,
+    "status": "Critical"
+  },
+  {
+    "_id": "vibq47pyz",
+    "createdAt": "2026-06-28T19:05:28.571Z",
+    "updatedAt": "2026-06-28T19:05:28.571Z",
+    "partName": "Dielectric Transformer Winding Oil",
+    "probability": 85,
+    "timeframe": 15,
+    "quantityRequired": 120,
+    "currentStock": 35,
+    "status": "Reorder"
+  },
+  {
+    "_id": "zw465e4eh",
+    "createdAt": "2026-06-28T19:05:28.573Z",
+    "updatedAt": "2026-06-28T19:05:28.573Z",
+    "partName": "Auxiliary Battery Lead Plates",
+    "probability": 76,
+    "timeframe": 15,
+    "quantityRequired": 8,
+    "currentStock": 10,
+    "status": "Adequate"
+  },
+  {
+    "_id": "9f4i6k2vo",
+    "createdAt": "2026-06-28T19:05:28.575Z",
+    "updatedAt": "2026-06-28T19:05:28.575Z",
+    "partName": "Kavach RF Transceiver Antennas",
+    "probability": 45,
+    "timeframe": 30,
+    "quantityRequired": 2,
+    "currentStock": 5,
+    "status": "Adequate"
+  },
+  {
+    "_id": "ra3i218kd",
+    "createdAt": "2026-06-28T19:05:28.579Z",
+    "updatedAt": "2026-06-28T19:05:28.579Z",
+    "partName": "Carbon Brake Shoe Blocks WAP7",
+    "probability": 88,
+    "timeframe": 7,
+    "quantityRequired": 16,
+    "currentStock": 2,
+    "status": "Critical"
+  }
+]

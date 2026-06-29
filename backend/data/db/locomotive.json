@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "sgfc80m5j",
+    "createdAt": "2026-06-28T19:04:27.954Z",
+    "updatedAt": "2026-06-28T19:04:27.954Z",
+    "locoNo": "30201",
+    "model": "WAP7",
+    "manufacturingYear": 2018,
+    "status": "Healthy",
+    "currentShed": "Jamalpur",
+    "driver": "Amit Sharma",
+    "health": 96,
+    "battery": 98,
+    "brake": 94,
+    "tractionMotor": 97,
+    "gpsStatus": "Active",
+    "rfStatus": "Active",
+    "kavachStatus": "Active",
+    "maintenanceStatus": "Operational",
+    "images": [
+      "https://images.unsplash.com/photo-1515165504669-4236820257a5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "history": [
+      {
+        "date": "2026-05-10",
+        "type": "IA Inspection",
+        "remarks": "Annual electrical diagnostic completed.",
+        "technician": "Vikram Singh"
+      }
+    ]
+  },
+  {
+    "_id": "kj6ryqxie",
+    "createdAt": "2026-06-28T19:04:27.956Z",
+    "updatedAt": "2026-06-29T03:33:53.862Z",
+    "locoNo": "31045",
+    "model": "WAP5",
+    "manufacturingYear": 2020,
+    "status": "Maintenance Soon",
+    "currentShed": "Jamalpur",
+    "driver": "Rajesh Yadav",
+    "health": 72,
+    "battery": 89,
+    "brake": 70,
+    "tractionMotor": 75,
+    "gpsStatus": "Active",
+    "rfStatus": "Active",
+    "kavachStatus": "Active",
+    "maintenanceStatus": "Scheduled",
+    "images": [
+      "https://images.unsplash.com/photo-1532103054090-334e6e60ab29?auto=format&fit=crop&w=800&q=80"
+    ],
+    "history": [
+      {
+        "date": "2026-04-12",
+        "type": "Brake Servicing",
+        "remarks": "Replaced brake shoe alignment.",
+        "technician": "Vikram Singh"
+      }
+    ]
+  },
+  {
+    "_id": "xwuh2tnbx",
+    "createdAt": "2026-06-28T19:04:27.958Z",
+    "updatedAt": "2026-06-28T19:04:27.958Z",
+    "locoNo": "31289",
+    "model": "WAG9",
+    "manufacturingYear": 2021,
+    "status": "Healthy",
+    "currentShed": "Jamalpur",
+    "driver": "Unassigned",
+    "health": 98,
+    "battery": 99,
+    "brake": 98,
+    "tractionMotor": 97,
+    "gpsStatus": "Active",
+    "rfStatus": "Active",
+    "kavachStatus": "Active",
+    "maintenanceStatus": "Operational",
+    "images": [
+      "https://images.unsplash.com/photo-1541417904950-b855846fe074?auto=format&fit=crop&w=800&q=80"
+    ],
+    "history": []
+  },
+  {
+    "_id": "8ng1bm3p0",
+    "createdAt": "2026-06-28T19:04:27.960Z",
+    "updatedAt": "2026-06-28T19:04:27.960Z",
+    "locoNo": "27084",
+    "model": "WAG7",
+    "manufacturingYear": 2012,
+    "status": "Critical",
+    "currentShed": "Jamalpur",
+    "driver": "Unassigned",
+    "health": 45,
+    "battery": 90,
+    "brake": 40,
+    "tractionMotor": 52,
+    "gpsStatus": "Active",
+    "rfStatus": "Inactive",
+    "kavachStatus": "Inactive",
+    "maintenanceStatus": "Under Repair",
+    "images": [
+      "https://images.unsplash.com/photo-1519011985187-444d62641929?auto=format&fit=crop&w=800&q=80"
+    ],
+    "history": [
+      {
+        "date": "2026-06-01",
+        "type": "Fault Isolation",
+        "remarks": "Radio receiver block module failure.",
+        "technician": "Vikram Singh"
+      }
+    ]
+  },
+  {
+    "_id": "2wyoea0kz",
+    "createdAt": "2026-06-28T19:04:27.962Z",
+    "updatedAt": "2026-06-29T14:39:40.071Z",
+    "locoNo": "11005",
+    "model": "WDM",
+    "manufacturingYear": 2015,
+    "status": "Critical",
+    "currentShed": "Jamalpur",
+    "driver": "Mohit Chawla",
+    "health": 50,
+    "battery": 92,
+    "brake": 85,
+    "tractionMotor": 90,
+    "gpsStatus": "Active",
+    "rfStatus": "Active",
+    "kavachStatus": "Active",
+    "maintenanceStatus": "Out of Service",
+    "images": [
+      "https://images.unsplash.com/photo-1560243563-062bfc001d68?auto=format&fit=crop&w=800&q=80"
+    ],
+    "history": []
+  },
+  {
+    "_id": "9dcxien24",
+    "createdAt": "2026-06-28T19:12:57.938Z",
+    "updatedAt": "2026-06-28T19:12:57.938Z",
+    "locoNo": "45672",
+    "model": "WAP7",
+    "manufacturingYear": 2026,
+    "currentShed": "Jamalpur",
+    "driver": "ghafoor",
+    "health": 100,
+    "battery": 100,
+    "brake": 100,
+    "tractionMotor": 100,
+    "gpsStatus": "Active",
+    "rfStatus": "Active",
+    "kavachStatus": "Active",
+    "maintenanceStatus": "Operational",
+    "images": [
+      "https://images.unsplash.com/photo-1515165504669-4236820257a5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "history": [
+      {
+        "date": "2026-06-28",
+        "type": "Commissioning",
+        "remarks": "Locomotive added to shed fleet list",
+        "technician": "System Agent"
+      }
+    ]
+  }
+]

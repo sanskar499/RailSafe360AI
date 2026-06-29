@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "xn2y4xkxd",
+    "createdAt": "2026-06-28T19:04:27.945Z",
+    "updatedAt": "2026-06-28T19:04:27.947Z",
+    "name": "Mr.Vishwajeet rana",
+    "email": "admin@railsafe.gov.in",
+    "password": "$2a$10$iwxcT20y7D2.3ok1oNmkbulS0BImQI1o6WbClRqwiAyZXwRXQlu4i",
+    "role": "Admin",
+    "employeeId": "EMP-ADMIN-01",
+    "currentShed": "Jamalpur"
+  },
+  {
+    "_id": "q3tur134b",
+    "createdAt": "2026-06-28T19:04:27.949Z",
+    "updatedAt": "2026-06-28T19:04:27.949Z",
+    "name": "Amit Sharma",
+    "email": "engineer@railsafe.gov.in",
+    "password": "$2a$10$iwxcT20y7D2.3ok1oNmkbulS0BImQI1o6WbClRqwiAyZXwRXQlu4i",
+    "role": "Loco Engineer",
+    "employeeId": "EMP-LE-05",
+    "currentShed": "Jamalpur"
+  },
+  {
+    "_id": "8fxtcykco",
+    "createdAt": "2026-06-28T19:04:27.951Z",
+    "updatedAt": "2026-06-28T19:04:27.951Z",
+    "name": "Vikram Singh",
+    "email": "technician@railsafe.gov.in",
+    "password": "$2a$10$iwxcT20y7D2.3ok1oNmkbulS0BImQI1o6WbClRqwiAyZXwRXQlu4i",
+    "role": "Maintenance Technician",
+    "employeeId": "EMP-MT-12",
+    "currentShed": "Jamalpur"
+  },
+  {
+    "_id": "0ru1l50tn",
+    "createdAt": "2026-06-28T19:04:27.953Z",
+    "updatedAt": "2026-06-28T19:04:27.953Z",
+    "name": "Suresh Chandra",
+    "email": "inspector@railsafe.gov.in",
+    "password": "$2a$10$iwxcT20y7D2.3ok1oNmkbulS0BImQI1o6WbClRqwiAyZXwRXQlu4i",
+    "role": "Inspector",
+    "employeeId": "EMP-IN-03",
+    "currentShed": "Jamalpur"
+  }
+]

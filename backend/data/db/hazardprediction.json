@@ -1,0 +1,11 @@
+[
+  {
+    "_id": "fftmehmaw",
+    "createdAt": "2026-06-29T03:34:05.351Z",
+    "updatedAt": "2026-06-29T15:55:31.012Z",
+    "locoNo": "11005",
+    "probability": 6,
+    "possibleCause": "No anomalous thermal or electrical signs detected.",
+    "suggestedAction": "Maintain nominal scheduling checks."
+  }
+]
