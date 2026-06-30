@@ -51,10 +51,14 @@ app.use('/api/health-intel', healthRoutes);
 app.use(errorHandler);
 
 // Boot Express Server
-app.listen(PORT, () => {
-  console.log('\n======================================================');
-  console.log(`📡 RailSafe360 Portal Server running on Port: ${PORT}`);
-  console.log(`🔌 Mode: ${process.env.NODE_ENV || 'Development'}`);
-  console.log(`💾 DB Engine: ${global.isMockDB ? 'Persistent JSON Files' : 'MongoDB Atlas'}`);
-  console.log('======================================================\n');
-});
+if (process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log('\n======================================================');
+    console.log(`📡 RailSafe360 Portal Server running on Port: ${PORT}`);
+    console.log(`🔌 Mode: ${process.env.NODE_ENV || 'Development'}`);
+    console.log(`💾 DB Engine: ${global.isMockDB ? 'Persistent JSON Files' : 'MongoDB Atlas'}`);
+    console.log('======================================================\n');
+  });
+}
+
+export default app;

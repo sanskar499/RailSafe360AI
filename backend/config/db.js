@@ -7,7 +7,11 @@ const DB_DIR = path.resolve('./data/db');
 
 // Ensure mock db directory exists
 if (!fs.existsSync(DB_DIR)) {
-  fs.mkdirSync(DB_DIR, { recursive: true });
+  try {
+    fs.mkdirSync(DB_DIR, { recursive: true });
+  } catch (e) {
+    // Ignored (Vercel read-only system)
+  }
 }
 
 export const connectDB = async () => {
@@ -89,24 +93,41 @@ class MockQuery {
   }
 }
 
+// Ensure in-memory fallback dictionary exists
+if (!global.inMemoryDB) {
+  global.inMemoryDB = {};
+}
+
 // Mock Model Factory for Local JSON Database persistence
 export const createMockModel = (modelName, defaultData = []) => {
   const filePath = path.join(DB_DIR, `${modelName.toLowerCase()}.json`);
   
   if (!fs.existsSync(filePath)) {
-    fs.writeFileSync(filePath, JSON.stringify(defaultData, null, 2));
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(defaultData, null, 2));
+    } catch (e) {
+      // Ignored write error (Vercel read-only filesystem)
+    }
   }
 
   const readData = () => {
     try {
+      if (global.inMemoryDB[modelName]) {
+        return global.inMemoryDB[modelName];
+      }
       return JSON.parse(fs.readFileSync(filePath, 'utf8'));
     } catch (e) {
-      return [];
+      return defaultData;
     }
   };
 
   const writeData = (data) => {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    global.inMemoryDB[modelName] = data;
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    } catch (e) {
+      // Ignored write error (Vercel read-only filesystem)
+    }
   };
 
   return {
